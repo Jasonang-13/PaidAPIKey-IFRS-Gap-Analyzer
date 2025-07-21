@@ -41,4 +41,5 @@
 - Questions? Create an issue on [GitHub](https://github.com/Jasonang-13/PaidAPIKey-IFRS-Gap-Analyzer)
 - Pre-loaded with official IFRS standards for accuracy
 
+## Example of Screenshot
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/10c8ff4a-1eec-4780-9ad1-974b5707dcb7" />
