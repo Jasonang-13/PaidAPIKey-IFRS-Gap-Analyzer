@@ -1,45 +1,44 @@
-# IFRS Gap Analysis System
+# How to Use the IFRS Gap Analysis Tool
 
-AI-powered tool that analyzes annual reports against IFRS S1 and S2 sustainability standards.
+## Quick Access
+**Live Application**: https://replit.com/@angjiashun13/IFRSGapAnalyzer
 
-## Features
+## Simple 4-Step Process
 
-- Upload annual report (PDF) for automated compliance analysis
-- Pre-loaded official IFRS S1 and S2 standards
-- AI-powered gap analysis using your OpenAI API key
-- Export results to Excel and PDF
+### Step 1: Get Your OpenAI API Key
+1. Visit [platform.openai.com](https://platform.openai.com/account/api-keys)
+2. Sign in or create an account
+3. Click "Create new secret key"
+4. Copy your API key (starts with "sk-")
 
-## Quick Start
+### Step 2: Set Up the Tool
+1. Open the application link above
+2. Click "Settings" in the top navigation
+3. Paste your OpenAI API key
+4. Click "Save API Key"
 
-1. **Get OpenAI API Key**: Visit [platform.openai.com](https://platform.openai.com/account/api-keys)
-2. **Access Settings**: Enter your API key and save
-3. **Upload Report**: Go to Analysis page and upload your annual report
-4. **Start Analysis**: Click "Start Analysis" and download results
+### Step 3: Upload Your Report
+1. Go back to "Analysis" page
+2. Click "Choose File" or drag your annual report (PDF format)
+3. Wait for upload confirmation
 
-## Setup
+### Step 4: Run Analysis
+1. Click "Start Analysis" button
+2. Wait 2-3 minutes for AI processing
+3. Download results as Excel or PDF
 
-```bash
-git clone https://github.com/yourusername/ifrs-gap-analysis.git
-cd ifrs-gap-analysis
-npm install
+## What You Get
+- Complete compliance gap analysis against IFRS S1 & S2 standards
+- Specific recommendations for improvement
+- Professional reports ready for stakeholders
+- Evidence citations from your annual report
 
-# Set environment variables
-cp .env.example .env
-# Add your DATABASE_URL
+## Cost
+- Free tool - you only pay OpenAI for API usage (typically $2-5 per analysis)
+- No subscription fees or hidden costs
 
-# Start development
-npm run dev
-```
+## Support
+- Questions? Create an issue on [GitHub](https://github.com/Jasonang-13/PaidAPIKey-IFRS-Gap-Analyzer)
+- Pre-loaded with official IFRS standards for accuracy
 
-## Environment Variables
-
-```env
-DATABASE_URL=your_postgresql_url
-NODE_ENV=production
-```
-
-Note: Users provide their own OpenAI API keys through the app settings.
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file.
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/10c8ff4a-1eec-4780-9ad1-974b5707dcb7" />
